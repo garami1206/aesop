@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*컨텐츠1*/
+.intCon01{background: url(/aesop/images/sub/con01Bg.png); height:1050px;}
+.intCon01 span{ font-weight: 300;padding-left: 30px; padding-top: 10px;; display: block;}
+.intCon01 h2{font-family: 'NanumMyeongjo'; font-weight: 400; font-size: 50px; padding-bottom: 80px;}
+.intCon01 p{font-weight: 200; font-size: 24px; line-height: 50px;}
+
+.con01Info{ padding-top: 250px;}
+.gnb li{float: left;}
+
+/*컨텐츠2*/
+.intCon02{font-size: 50px; background: url(/aesop/images/sub/con02Story.png) no-repeat; margin: 300px 0; height: 820px;}
+.intCon02 p{font-size: 24px;font-weight: 200; margin: 100px 0; line-height: 40px;}
+.intCon02 span{font-size: 19px;}
+
+
+/*컨텐츠3*/
+.intCon03{font-size: 19px; text-align: right;height: 1400px;}
+.intCon03 img{}
+.con03Info{margin-top: 150px; display: inline-block;}
+.intCon03 p{font-size: 22px;}
+.con03Info p:last-child{font-size: 17px; margin-top: 100px; font-weight: 600;}
+
+
+/*컨텐츠4*/
+.intCon04{background: url(/aesop/images/sub/con04Bg.png) no-repeat center center; background-size: cover; color: #fff; text-align: center; height: 580px; font-size: 24px; margin: 290px 0;}
+.con04Info{padding-top: 220; line-height: 50px;}
+.con04Info p{}
+.con04Info p:first-child{font-weight: 100;}
+
+
+/*컨텐츠5*/
+.intCon05{margin-bottom: 150px; background: url(/aesop/images/sub/con05Bg.png) no-repeat 100% center; height: 820px;}
+.con05Info{font-size: 24px; font-weight: 100; text-align: right;padding-right: 390px;
+            padding-top: 140px;font-weight: 100;}
+.con05Info p:first-child{font-family: 'NanumMyeongjo'; font-size: 40px; padding-bottom: 50px;}
+.intCon05 a{display: inline-block;margin-top: 120px; height: 50px; color: #000;transition: all 0.3s linear;}
+.intCon05 a:after{content: ""; display: block; margin: 0 auto; height: 1px; width: 100%; background: #000; transform: scale(1); transition: all 0.3s linear; margin: 10px 0;}
+.intCon05 a:hover:after{transform: scale(0);}
+.intCon05 a:hover{font-weight: 400;transform: scale(1.1)}

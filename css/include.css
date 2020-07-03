@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{height: 709px; background: url(/aesop/images/main/mainBg.png) center center; background-size: cover;}
+
+.utill{padding-top: 650px;position: relative;}
+.utill li{float: left;}
+.utill li:last-child a{color: #fff;position: absolute; right: 0;}
+.utill a img{display: inline-block;}
+
+.bag{position: absolute; left:0;}
+.surch{position: absolute; right: 385px;}
+.surchBox{position: absolute; left: 350px; width: 430px; height: 30px; padding-left: 10px; background: #E1DEDE; border-radius: 5px }
+
+/*푸터*/
+#footer{background: #1E1C1C; color: #fff; height: 50px;padding: 50px 0;}
+
+.fLogo{font-size: 18px; font-weight: 100; float: left;margin: 0 80px;}
+
+.fSns{}
+.fSns li{float: left; margin-right: 10px;}
+.fSns li a{}
+.fSns li img{}
+
+.fInfo01{font-size: 13px; font-weight: 100; float: right; width: 1000px; line-height: 23px;}
+.fInfo01 li{float: left;margin-left: 14px;}

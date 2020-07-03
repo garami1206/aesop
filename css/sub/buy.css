@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/*컨텐츠1*/
+.buyCon01{background: url(/aesop/images/sub/mainBg.png) center center;background-size: cover; color: #fff; height: 900px;}
+.buyCon01 .inner{ position: relative; height: 900px;}
+.buyCon01 img{position: absolute; top:50%; margin-top: -150px}
+
+.con01Text{position: absolute; right: 0;top:50%; margin-top: -300px}
+.con01Text>span{font-size: 15px; font-weight: 100; display: block; width: 65px; height: 25px; border: 1px solid #fff; border-radius: 20px; text-align: center; line-height: 25px;}
+.con01Text h2{font-size: 35px; padding-top: 20px; }
+.con01Text p{font-weight: 100; font-size: 18px; padding: 50px 0;}
+
+.con01Info dt{background: url(/aesop/images/sub/square.png) no-repeat 0 50%; padding-left: 20px; margin-bottom: 10}
+.con01Info dd{font-weight: 100; padding-left: 20px; margin-bottom: 20px;}
+.con01Info dd:last-child{background: url(/aesop/images/sub/plus.png) no-repeat 100%; padding-right: 25px;}
+.buyBtn{text-align: center; border: 1px solid #fff; height: 60px; line-height: 60px; margin-top: 80px;
+        transition: all 0.2s linear}
+.buyBtn:hover{background: rgba(255,255,255,0.2);}
+.buyBtn a{color: #fff;font-size: 19px; display: block;}
+.buyBtn span{display: inline-block;;padding-right: 25px;font-family: 'NanumSquareRound'; font-weight: 900;}
+
+/*컨텐츠2*/
+.buyCon02{background: #D7D8C8; }
+.buyCon02 .inner{ position: relative; height: 750px;}
+.buyCon02 img{position: absolute; top:50%; margin-top: -200px}
+
+.con02Text{position: absolute; right: 0;top:50%; margin-top: -260px}
+.con02Text>span{font-weight: 300; }
+.con02Text h2{font-size: 35px; padding: 40px 0 10px; font-weight: 100; border-bottom: 1px solid #000;}
+.con02Text p{font-weight: 200; padding: 30px 0; line-height: 35px;}
+
+.con02Info{font-weight: 200;}
+.con02Info dt{margin-bottom: 10}
+.con02Info dd{margin-bottom: 20px;}
+
+/*컨텐츠3*/
+.buyCon03{background: #282A27; color: #fff; height: 1100px;}
+.buyCon03 .inner{position: relative;height: 1100px;}
+.buyCon03 a{color: #fff;}
+.con03Text h2{font-size: 35px; padding: 140px 0 10px; font-weight: 100; border-bottom: 1px solid #fff;
+                width: 380px; text-align: center;}
+.con03Text p{font-weight: 100; padding: 30px 0; line-height: 35px;}
+
+.con03Product{text-align: center;''}
+.con03Product li{float: left; position: absolute; }
+.con03Product li:first-child{left: 250; bottom: 150px}
+.con03Product li:last-child{right: 150; bottom: 150px}
+.con03Product .center{bottom: 90px; left: 520px; transition: all 0.3s linear;}
+.con03Product .center:hover{transform: scale(1.1);}
+.con03Product .center img{display: block; margin-bottom: 30px;}
+.con03Product li a{display: block;}
+.con03Product li img{display: inline-block;}
+
+.arrow {position: absolute; background: url(/aesop/images/sub/arrow.png) no-repeat; height: 60;
+        width: 30px; text-indent: -9999px; bottom: 400px;}
+.arrow a{display: block;height: 100%;}
+.con03Arrow .arrowL {left: 100px; transition:all 0.5s;}
+.con03Arrow .arrowL:hover{ transform: translate(-30px);}
+.con03Arrow .arrowR {right: 0px; background-position: right; transition:all 0.5s;}
+.con03Arrow .arrowR:hover{transform: translate(30px);}

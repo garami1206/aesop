@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*nav*/
+nav{height: 50px; padding: 10px; text-align: center;}
+nav h1{vertical-align: middle; display: inline-block; margin-right: 50px;}
+nav h1 a{}
+nav h1 a img{}
+
+.gnb{vertical-align: middle; display: inline-block; font-weight: 400; font-size: 17px;}
+.gnb li{float: left; padding: 0 50px;}
+.gnb li a{}
+
+/*컨텐츠1*/
+.mainCon01{background: url(/aesop/images/main/con01Bg.png) no-repeat center center; background-size: cover; height: 641px;
+            position: relative; color: #DFD9D1;}
+.mainCon01 a{color: #fff;}
+.con01Info{position: absolute; top: 130; right:460px; }
+.con01Text{font-size: 15px; font-weight: 100; line-height: 30px;}
+.con01Text h2{font-size: 62px; font-weight: 400; height: 45px;}
+.con01Info .con01Text .con01P{font-size: 40px;margin: 35px 0;}
+.con01Text span{font-weight: 500;}
+
+.con01Btn a:hover{background: rgba(255,255,255,0.3); transition: all 0s linear}
+.con01Btn a{margin: 85px 35px; display:inline-block; border-radius: 50%; border: 1px solid #fff; height: 90px; width: 90px; font-size: 15px; font-weight: 100; text-align: center; line-height: 90px;}
+
+/*컨텐츠2*/
+.mainCon02{background: url(/aesop/images/main/con02Bg.png) center center; background-size: cover; 
+            text-align: center; height: 980px; padding: 200px 0;}
+.mainCon02 ul li{float: left; width: 270px; margin-right: 40px;}
+.mainCon02 ul li:last-child{margin-right: 0;}
+.mainCon02 ul li:hover a{text-decoration: underline; text-decoration-color: #fff; }
+.mainCon02 p{color: #fff; padding-top: 10px; font-size: 14px; font-weight: 100;}
+.mainCon02 h5{color: #fff; font-size: 15px; font-weight: 300}
+
+.con02Text{padding-top: 50px;}
+.con02List02 li{margin-top: 100px;}
+
+/*컨텐츠3*/
+.mainCon03 {background: url(/aesop/images/main/con03Bg.png) center center; background-size: cover; height: 1010px; padding: 250px 0;}
+.con03 { text-indent: -9999px; width: 895px; height: 504px}
+.con03 a{display: block; height: 100%; transition: all 0.5s;}
+.mainCon03 .wash{background: url(/aesop/images/main/con03Wash.png) no-repeat;}
+.mainCon03 .store{background: url(/aesop/images/main/con03Store.png) no-repeat; float: right;}
+.con03:hover a{background-color: rgba(242,242,242,0.1); }
