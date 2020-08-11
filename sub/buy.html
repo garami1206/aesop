@@ -3,10 +3,15 @@
     <head>
         <meta charset="utf-8">
         <title>이솝-제품소개</title>
-        <link rel="stylesheet" type="text/css" href="/aesop/css/default.css">
-        <link rel="stylesheet" type="text/css" href="/aesop/css/sub/subInclude.css">
-        <link rel="stylesheet" type="text/css" href="/aesop/css/sub/buy.css">
-        <link rel="stylesheet" type="text/css" href="/aesop/font/fonts.css">
+        <link rel="stylesheet" type="text/css" href="/css/default.css">
+        <link rel="stylesheet" type="text/css" href="/css/sub/subInclude.css">
+        <link rel="stylesheet" type="text/css" href="/css/sub/buy.css">
+        <link rel="stylesheet" type="text/css" href="/css/slick.css">
+        <link rel="stylesheet" type="text/css" href="/font/fonts.css">
+        
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="/js/slick.min.js"></script>
+        <script type="text/javascript" src="/js/buy.js"></script>
     </head>
     <!--전체-->
     <body id="wrap">
@@ -15,8 +20,8 @@
             <!--gnb-->
             <nav>
                 <ul class="gnb inner cf">
-                    <h1><a href="/aesop/index.html"><img src="/aesop/images/main/headerLogo.png" alt="헤더로고"></a></h1>
-                    <li><a href="/aesop/sub/intro.html">브랜드 소개</a></li>
+                    <h1><a href="/index.html"><img src="/images/main/headerLogo.png" alt="헤더로고"></a></h1>
+                    <li><a href="/sub/intro.html">브랜드 소개</a></li>
                     <li><a href="#">제품목록</a></li>
                     <li><a href="#">주문 및 배송</a></li>
                     <li><a href="#">후기</a></li>
@@ -27,9 +32,9 @@
             <!--utill-->
             <div class="utill inner cf">
                 <ul>
-                    <li><a href="#"><img src="/aesop/images/main/mainBag.png" alt="장바구니" class="bag"></a></li>
+                    <li><a href="#"><img src="/images/main/mainBag.png" alt="장바구니" class="bag"></a></li>
                     <li><input type="text" class="surchBox" placeholder="여기에서 제품을 찾아보세요."></li>
-                    <li><a href="#" class="surch"><img src="/aesop/images/main/mainSurch.png" alt="돋보기" class="surch"></a></li>
+                    <li><a href="#" class="surch"><img src="/images/main/mainSurch.png" alt="돋보기" class="surch"></a></li>
                     <li><a href="#">login</a></li>
                 </ul>
             </div>
@@ -41,7 +46,7 @@
             <!--컨텐츠1-->
             <div class="buyCon01">
                 <div class="inner cf">
-                    <img src="/aesop/images/sub/mainProduct.png" alt="메인화장품">
+                    <img src="/images/sub/mainProduct.png" alt="메인화장품">
                     <!--제품설명-->
                     <div class="con01Text">
                         <span>60ml</span>
@@ -71,7 +76,7 @@
             <!--컨텐츠2-->
             <div class="buyCon02">
                 <div class="inner cf">
-                    <img src="/aesop/images/sub/con02Texcher.png" alt="텍스쳐">
+                    <img src="/images/sub/con02Texcher.png" alt="텍스쳐">
                     <div class="con02Text">
                         <!--사용법-->
                         <span>사용법</span>
@@ -105,15 +110,36 @@
                     </div>
                     <!--함사좋 설명-->
                     <!--화장품리스트-->
-                    <ul class="con03Product">
-                        <li><a href="#"><img src="/aesop/images/sub/con03productLeft.png" alt="제품좌"></a></li>
-                        <li class="center"><a href="#"><img src="/aesop/images/sub/con03productCenter.png" alt="제품중간"><p>퓨리파잉 페이셜 엑스폴리언트 페이스트</p></a></li>
-                        <li><a href="#"><img src="/aesop/images/sub/con03productRight.png" alt="제품우"></a></li>
-                    </ul>
+                    <div class="con03Product">
+                        <div class="con03Item01">
+                            <a href="#">
+                                <img src="/images/sub/con03Img01.png" alt="제품1">
+                                <p>파슬리 씨드 클렌징 마스크</p>
+                            </a>
+                        </div>
+                        <div class="con03Item02">
+                            <a href="#">
+                                <img src="/images/sub/con03Img02.png" alt="제품1">
+                                <p>퓨리파잉 페이셜 엑스폴리언트 페이스트</p>
+                            </a>
+                        </div>
+                        <div class="con03Item03">
+                            <a href="#">
+                                <img src="/images/sub/con03Img03.png" alt="제품1">
+                                <p>파슬리 씨드 안티 옥시던트 페이셜 토너</p>
+                            </a>
+                        </div>
+                        <div class="con03Item04">
+                            <a href="#">
+                                <img src="/images/sub/con03Img04.png" alt="제품1">
+                                <p>프림로즈 페이셜 하이드레이팅 크림</p>
+                            </a>
+                        </div>
+                    </div>
                         <!--화살표-->
                         <ul class="con03Arrow">
-                            <li class="arrow arrowL"><a href="#">왼쪽</a></li>
-                            <li class="arrow arrowR"><a href="#">오른쪽</a></li>
+                            <li class="arrow arrowL">왼쪽</li>
+                            <li class="arrow arrowR">오른쪽</li>
                         </ul>
                         <!--화살표-->
                     <!--화장품리스트-->
@@ -131,11 +157,11 @@
                 <!--푸터로고-->
                 <!--sns-->
                 <ul class="fSns">
-                    <li><a href="#"><img src="/aesop/images/main/fInstarrgram.png" alt="인스타그램"></a></li>
-                    <li><a href="#"><img src="/aesop/images/main/fTiwtter.png" alt="트위터"></a></li>
-                    <li><a href="#"><img src="/aesop/images/main/fIn.png" alt="인"></a></li>
-                    <li><a href="#"><img src="/aesop/images/main/fPost.png" alt="포스트"></a></li>
-                    <li><a href="#"><img src="/aesop/images/main/fNever.png" alt="네이버"></a></li>
+                    <li><a href="#"><img src="/images/main/fInstarrgram.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="/images/main/fTiwtter.png" alt="트위터"></a></li>
+                    <li><a href="#"><img src="/images/main/fIn.png" alt="인"></a></li>
+                    <li><a href="#"><img src="/images/main/fPost.png" alt="포스트"></a></li>
+                    <li><a href="#"><img src="/images/main/fNever.png" alt="네이버"></a></li>
                 </ul>
                 <!--sns-->
                 <!--푸터정보-->
