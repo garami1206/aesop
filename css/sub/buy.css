@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*컨텐츠1*/
-.buyCon01{background: url(/aesop/aesop/images/sub/mainBg.png) center center;background-size: cover; color: #fff; height: 900px;}
+.buyCon01{background: url(/aesop/images/sub/mainBg.png) center center;background-size: cover; color: #fff; height: 900px;}
 .buyCon01 .inner{ position: relative; height: 900px;}
 .buyCon01 img{position: absolute; top:50%; margin-top: -150px}
 
